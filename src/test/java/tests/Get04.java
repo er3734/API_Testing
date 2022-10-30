@@ -1,4 +1,4 @@
-package Tests;
+package tests;
 
 import baseUrl.RestfulHerOkuBaseUrl;
 import io.restassured.response.Response;

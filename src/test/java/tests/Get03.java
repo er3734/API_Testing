@@ -1,4 +1,4 @@
-package Tests;
+package tests;
 
 import baseUrl.ReqresBaseUrl;
 import io.restassured.http.ContentType;
@@ -7,7 +7,6 @@ import org.junit.Test;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.CoreMatchers.equalTo;
-import static org.junit.Assert.*;
 
 public class Get03 extends ReqresBaseUrl {
 

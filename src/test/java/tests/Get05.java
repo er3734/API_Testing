@@ -1,4 +1,4 @@
-package Tests;
+package tests;
 
 import baseUrl.ReqresBaseUrl;
 import io.restassured.path.json.JsonPath;
