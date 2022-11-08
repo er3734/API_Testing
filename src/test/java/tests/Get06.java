@@ -28,6 +28,7 @@ Then
     public void test() {
         spec.pathParam("first", "unknown");
         Response response = given().spec(spec).when().get("/{first}");
+        response.prettyPrint();
 
         response.then().statusCode(200);
         JsonPath jsonPath = response.jsonPath();
